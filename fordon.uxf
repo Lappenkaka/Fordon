@@ -1,1 +1,36 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level></diagram>
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>450</x><y>9</y><w>99</w><h>153</h></coordinates><panel_attributes>Fordon
+--
+fabrikat:str
+color:str
+--
+_init_constructor
+set_fabrikat(str)
+get_fabrikat()str
+set_color(str)
+get_color()str
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>279</y><w>243</w><h>189</h></coordinates><panel_attributes>personbil
+--
+fabrikat:str
+color:str
+bagagevolym:int
+--
+_init_constructor(fabrikat,color,bagagevolym)
+set_bagagevolym(int)
+get_bagagevoluým()int 
+print_fordon()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>45</x><y>270</y><w>288</w><h>162</h></coordinates><panel_attributes>Lastbil
+--
+fabrikat:str
+color:str
+flakvolym:int
+--
+_init_constructor(fabrikat,color,flakvolym)
+set_flakvolym(int)
+get_flakvolym()int
+print_fordon()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>459</x><y>162</y><w>27</w><h>144</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>126</y><w>279</w><h>153</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>290;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>0</y><w>90</w><h>198</h></coordinates><panel_attributes>main.py
+--
+looping:boolean
+personbils_lista(personbil)
+lastbils_lista(lastbil)
+--
+main()
+print _fordons_lista()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>117</x><y>198</y><w>27</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>171</x><y>153</y><w>225</w><h>135</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>230;130;10;10</additional_attributes></element></diagram>
